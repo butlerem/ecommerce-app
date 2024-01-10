@@ -5,8 +5,8 @@
 
 :root {
   --base: 24px;
-  --font-body: 'Roboto', sans-serif;
-  --font-mono: 'Roboto', sans-serif;
+  --font-body: 'Jost', sans-serif;
+  --font-jost: 'Jost', sans-serif;
 
   --gutter-h: 180px;
   --block-padding: 120px;
@@ -45,13 +45,13 @@ body,
 }
 
 body {
-  font-family: var(--font-nunito);
+  font-family: var(--font-jost);
   margin: 0;
   padding: 0;
   color: var(--color-dark-500);
 
   display: flex;
-  flex-flow:column;
+  flex-flow: column;
 }
 
 .main {
@@ -111,6 +111,7 @@ ol {
 
 a {
   color: var(--color-dark-500);
+  text-decoration: none;
 
   &:focus {
     opacity: .8;
